@@ -128,7 +128,6 @@ module.exports = {
      'multiline-ternary': ['error', 'always-multiline'],
      'new-cap': 'error',
      'new-parens': 'error',
-     'newline-per-chained-call': ['error', { ignoreChainWithDepth: 2 }],
      'no-array-constructor': 'error',
      'no-bitwise': 'error',
      'no-lonely-if': 'error',
