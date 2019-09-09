@@ -148,5 +148,6 @@ module.exports = {
      'func-style': ['error', 'declaration', { allowArrowFunctions: true }],
      'max-statements-per-line': ['error', { max: 1 }],
      'no-param-reassign': ['error', { props: false }],
+     'no-constant-condition': ['error', { checkLoops: false }],
    },
 };
