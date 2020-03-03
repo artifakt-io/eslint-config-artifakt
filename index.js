@@ -142,7 +142,7 @@ module.exports = {
      'object-property-newline': ['error', { allowAllPropertiesOnSameLine: true }],
      'one-var': ['error', 'never'],
      'operator-assignment': ['error', 'always'],
-     'operator-linebreak': ['error', 'none'],
+     'operator-linebreak':["error", "after", { "overrides": { "?": "before", ":": "before" } }],
      'semi-spacing': 'error',
      'semi-style': ['error', 'last'],
      camelcase: ['error', { properties: 'never' }],
