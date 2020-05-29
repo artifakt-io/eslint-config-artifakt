@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-artifakt",
-  "version": "1.0.0",
+  "version": "0.10.0",
   "description": "ESLint rules for NodeJS",
   "main": "index.js",
   "scripts": {
