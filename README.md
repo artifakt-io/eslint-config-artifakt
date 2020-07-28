@@ -6,7 +6,7 @@ ESLint config file.
 
 1. Install the config : 
 ```bash
-$ npm install git+ssh://git@gitlab.com:artifakt-tools/eslint-config-artifakt
+$ npm install -D git+https://github.com/artifakt-io/eslint-config-artifakt.git#x.x.x
 ```
 
 2. Create a `.eslintrc.json` file and copy/paste this `json` code block : 
