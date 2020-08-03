@@ -3,7 +3,7 @@ module.exports = {
   extends: 'eslint:recommended',
   parserOptions: { sourceType: 'module', ecmaVersion: 2019 },
   rules: {
-    indent: ['error', 2],
+    indent: ['error', 2, { "SwitchCase": 1 }],
     'linebreak-style': ['error', 'unix'],
     quotes: ['error', 'single'],
     semi: ['error', 'always'],
