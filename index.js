@@ -137,7 +137,7 @@ module.exports = {
     'no-negated-condition': 'error',
     'no-nested-ternary': 'error',
     'no-new-object': 'error',
-    'no-underscore-dangle': 'error',
+    'no-underscore-dangle': 'off',
     'no-unneeded-ternary': 'error',
     'object-property-newline': ['error', { allowAllPropertiesOnSameLine: true }],
     'one-var': ['error', 'never'],
